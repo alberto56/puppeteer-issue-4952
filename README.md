@@ -13,7 +13,7 @@ To run this:
 
 (5) Run "./run-tests.sh"
 
-
+(6) Inspect the ./dom-captures and ./screenshots directories.
 
 To destroy the environment:
 -----
