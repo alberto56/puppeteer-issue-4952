@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style type="text/css" media="all">
+      @import url("/styles/css/tabs.css?py1cbv");
+    </style>
+    <style type="text/css" media="all">
+      @import url("/styles/css/normalize.css?py1cbv");
+      @import url("/styles/css/default.css?py1cbv");
+      @import url("/styles/css/layout.css?py1cbv");
+      @import url("/styles/css/style.css?py1cbv");
+    </style>
+    <style type="text/css" media="print">
+      @import url("/styles/css/print.css?py1cbv");
+    </style>
+  </head>
+  <body class="html not-front logged-in one-sidebar sidebar-first page-internal page-internal-organizations role-authenticated-user with-subnav page-internal-organizations section-internal" >
+    <div id="page" class="page with-navigation with-subnav">
+      <input class="burger-check" id="burger-check" type="checkbox">
+      <input class="burger-check" id="mobile-burger-check" type="checkbox">
+      <input class="burger-check" id="filters-check" type="checkbox">
+      <header id="header" class="clearfix">
+        <!-- ______________________ LOGO _______________________ -->
+        <a href="/user/org/view" title="Site-Install" rel="home" id="logo">
+        <img src="/styles/logo.png" alt="Site-Install"/>
+        <span class="logotitle">Hello World</span>
+        </a>
+        <!-- ______________________ USER NAV _______________________ -->
+        <div id="topnav">
+          <a id="nm-org-logo" href="/user/org" title="Edit Organization"><img src="/styles/images/optimized/org_logo.png" alt="Organization Logo" title="Edit Organization" /></a>
+          <label id="userpicture" for="burger-check" style="background-image: url('/styles/images/optimized/meeple.png');"><span class="element-invisible">User Menu Toggle</span></label>
+          <label for="mobile-burger-check" class="burger"><span class="element-invisible">Mobile User Menu Toggle</span></label>
+          <div id="block-system-main-menu" class="block block-system contextual-links-region block-menu block-odd first block" data-bid="system-main-menu">
+            <h3 class="title">Main menu</h3>
+            <div class="contextual-links-wrapper">
+              <ul class="contextual-links">
+                <li class="menu-list first"><a href="/admin/structure/menu/manage/main-menu/list?destination=internal/organizations">List links</a></li>
+                <li class="menu-edit"><a href="/admin/structure/menu/manage/main-menu/edit?destination=internal/organizations">Edit menu</a></li>
+                <li class="block-configure last"><a href="/admin/structure/block/manage/system/main-menu/configure?destination=internal/organizations">Configure block</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- /block -->
+          <div id="block-system-user-menu" class="block block-system contextual-links-region block-menu block-even block" data-bid="system-user-menu">
+            <h3 class="title">User menu</h3>
+            <div class="contextual-links-wrapper">
+              <ul class="contextual-links">
+                <li class="menu-list first"><a href="/admin/structure/menu/manage/user-menu/list?destination=internal/organizations">List links</a></li>
+                <li class="menu-edit"><a href="/admin/structure/menu/manage/user-menu/edit?destination=internal/organizations">Edit menu</a></li>
+                <li class="block-configure last"><a href="/admin/structure/block/manage/system/user-menu/configure?destination=internal/organizations">Configure block</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- /block -->
+        </div>
+      </header>
+      <!-- /header -->
+      <!-- ______________________ PAGE TITLE _______________________ -->
+      <div id="pagetitle">
+        <h1 class="title">Organizations</h1>
+        <div class="contextual-links-wrapper">
+          <ul class="contextual-links views-contextual-links-page">
+            <li class="views-ui-edit first last"><a href="/admin/structure/views/view/nm_orgs_organizations/edit/page?destination=internal/organizations">Edit view</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- ______________________ ONBOARDING PROGRESS _______________________ -->
+      <div id="main">
+        <!-- _________________ MESSAGES __________________ -->
+        <div class="container">
+          <!-- ______________________ MAIN NAV (TABS) ____________________ -->
+          <div id="navigation" class="tabs">
+            <ul class="tabs primary clearfix">
+              <li><a href="/internal"><span class="tab task-recent-content">Recent Content</span></a></li>
+              <li class="active"><a href="/internal/organizations" class="active"><span class="tab task-organizations">Organizations</span><span class="element-invisible">(active tab)</span></a></li>
+              <li><a href="/internal/users"><span class="tab task-users">Users</span></a></li>
+              <li><a href="/internal/settings"><span class="tab task-settings">Settings</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="maincontent" class="container">
+          <section id="content" class="sidebar-closed">
+            <div id="content-area">
+              <!-- ______________________ SUBNAV _______________________ -->
+              <!-- ______________________ CONTENT _______________________ -->
+              <div class="view view-nm-orgs-organizations view-id-nm_orgs_organizations view-display-id-page view-dom-id-97f44265df551976c51a66f09870fb35">
+                <label for="filters-check" class="filterbutton">Filter</label>
+                <div class="view-filters">
+                  <form action="/internal/organizations" method="get" id="views-exposed-form-nm-orgs-organizations-page" accept-charset="UTF-8">
+                    <div>
+                      <div class="views-exposed-form">
+                        <div class="views-exposed-widgets clearfix">
+                          <div id="edit-title-wrapper" class="views-exposed-widget views-widget-filter-title">
+                            <label for="edit-title">
+                            Title Contains          </label>
+                            <div class="views-widget">
+                              <div class="form-item form-type-textfield form-item-title">
+                                <input type="text" id="edit-title" name="title" value="" size="30" maxlength="128" class="form-text" />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="views-exposed-widget views-submit-button">
+                            <input type="submit" id="edit-submit-nm-orgs-organizations" name="" value="Apply" class="form-submit" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="filtersenabled">Filtered Results</div>
+                <div class="view-content">
+                  <div class="tablecontainer">
+                    <table class="views-table cols-4" >
+                      <thead>
+                        <tr>
+                          <th class="views-field views-field-title"  scope="col">
+                            <a href="/internal/organizations?title=&amp;order=title&amp;sort=asc" title="sort by Title" class="active">Title</a>
+                          </th>
+                          <th class="views-field views-field-created active"  scope="col">
+                            <a href="/internal/organizations?title=&amp;order=created&amp;sort=asc" title="sort by Created" class="active">Created<img src="/misc/arrow-asc.png" width="13" height="13" alt="sort ascending" title="sort ascending" /></a>
+                          </th>
+                          <th class="views-field views-field-changed"  scope="col">
+                            <a href="/internal/organizations?title=&amp;order=changed&amp;sort=desc" title="sort by Updated" class="active">Updated</a>
+                          </th>
+                          <th class="views-field views-field-edit-node"  scope="col">
+                            Actions
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="odd views-row-first views-row-last">
+                          <td class="views-field views-field-title" >
+                            <a href="/node/43">This is an organization</a>
+                          </td>
+                          <td class="views-field views-field-created active" >
+                            04/08/2019 - 01:15
+                          </td>
+                          <td class="views-field views-field-changed" >
+                            04/08/2019 - 16:15
+                          </td>
+                          <td class="views-field views-field-edit-node" >
+                            <a href="/node/43/edit?destination=internal/organizations">edit</a> <a href="/node/43/delete?destination=internal/organizations">delete</a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /content -->
+          <!-- ______________________ SIDEBARS _______________________ -->
+          <aside id="sidebar-first" class="sidebar">
+            <div id="block-nm-organization-nm-organization-add-org" class="block block-nm-organization contextual-links-region block-odd first block" data-bid="nm_organization-nm_organization_add_org">
+              <div class="contextual-links-wrapper">
+                <ul class="contextual-links">
+                  <li class="block-configure first last"><a href="/admin/structure/block/manage/nm_organization/nm_organization_add_org/configure?destination=internal/organizations">Configure block</a></li>
+                </ul>
+              </div>
+              <a href="/node/add/organization" class="button">Add Organization</a>
+            </div>
+            <!-- /block -->
+          </aside>
+          <!-- /sidebar-first -->
+          <!-- /sidebar-second -->
+        </div>
+        <!-- ______________________ FOOTER _______________________ -->
+        <div id="footerlogo">
+          <img class="logoimg" src="/styles/logo.png" alt="Home" />
+          <span class="logotitle">Hello World</span>
+        </div>
+      </div>
+      <!-- /main -->
+    </div>
+    <!-- /page -->
+  </body>
+</html>

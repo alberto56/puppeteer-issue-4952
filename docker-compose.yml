@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  httpd:
+    image: httpd:2.4
+    volumes:
+      - "./website:/usr/local/apache2/htdocs/"
+    ports:
+      - "80"
+
+networks:
+  default:
+    external:
+      name: puppeteer_issue_4952
